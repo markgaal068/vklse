@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKLSE Győr</title>
+
+    <!--CSS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--JS-->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+
+<body>
+    <!--fejresz desing-->
+    <header class="header">
+        <a href="#" class="logo">VKLSE <span>Győr.</span></a>
+
+        <i class='bx bx-menu menuicon' onclick="hamburger()" id="icon"></i>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="#home" onclick="hamburger()">Főoldal</a>
+            <a href="#news" onclick="hamburger()">Hírek</a>
+            <a href="#teams" onclick="hamburger()">Csapataink</a>
+            <a href="#about" onclick="hamburger()">Rólunk</a>
+            <a href="#contact" onclick="hamburger()">Kapcsolat</a>
+            <a href="TAO.pdf" target="_blank" onclick="hamburger()">TAO</a>
+
+        </nav>
+    </header>
+
+
+    <!--Főoldal-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Szia! Üdvözöllek a</h3>
+            <h1>VKLSE <span>Győr</span></h1>
+            <h3>Weboldalán</h3>
+            <p class="fooldalp">Kövess minket Facebookon és Instagramon is!</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100076261140556" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/vkl_se_gyor/"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+
+
+        <div class="home-img">
+            <img src="./VKLSElogo.png" alt="VKLSE Logo">
+        </div>
+    </section>
+
+    <section class="news" id="news">
+        <h2 class="heading">Vezető <span>híreink</span></h2>
+
+        <div class="news-container">
+            <div class="news-box">
+                <img src="./kep.jpg" alt="hirkepe">
+                <div class="news-layer">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                    <a href="#popup2" class="btn" onclick="myFunction()"><i class='bx bxs-news'></i></a>
+                </div>
+            </div>
+            <div class="news-box">
+                <img src="./kep.jpg" alt="hirkepe">
+                <div class="news-layer">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                    <a href="#popup3" class="btn" onclick="myFunction()"><i class='bx bxs-news'></i></a>
+                </div>
+            </div>
+            <div class="news-box">
+                <img src="./kep.jpg" alt="hirkepe">
+                <div class="news-layer">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                    <a href="#popup4" class="btn" onclick="myFunction()"><i class='bx bxs-news'></i></a>
+                </div>
+            </div>
+            <div class="news-box">
+                <img src="./kep.jpg" alt="hirkepe">
+                <div class="news-layer">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                    <a href="#popup5" class="btn" onclick="myFunction()"><i class='bx bxs-news'></i></a>
+                </div>
+            </div>
+            <div class="news-box">
+                <img src="./kep.jpg" alt="hirkepe">
+                <div class="news-layer">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                    <a href="#popup6" class="btn" onclick="myFunction()"><i class='bx bxs-news'></i></a>
+                </div>
+            </div>
+            <div class="news-box">
+                <img src="./kep.jpg" alt="hirkepe">
+                <div class="news-layer">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                    <a href="#popup7" class="btn" onclick="myFunction()"><i class='bx bxs-news'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="teams" id="teams">
+        <h2 class="heading">VKLSE <span>Győr</span> Csapatai</h2>
+
+        <div class="teams-container">
+            <div class="teams-box">
+                <img src="kep.jpg">
+                <i class='bx bx-female'></i>
+                <h3>Női serdülő</h3>
+                <p>U17 korosztály, várjuk a jelentkezőket!</p>
+                <a href="https://www.mksz.hu/versenyek/upNoiVersenyek/32021930/320216840" class="btn"target="_blank">Tabella</a>
+            </div>
+
+            <div class="teams-box">
+                <img src="kep.jpg">
+                <i class='bx bx-female'></i>
+                <h3>Női ifjúsági</h3>
+                <p>U19 korosztály, várjuk a jelentkezőket!</p>
+                <a href="https://www.mksz.hu/versenyek/upNoiVersenyek/32021918/320216813" class="btn"
+                    target="_blank">Tabella</a>
+            </div>
+
+            <div class="teams-box">
+                <img src="kep.jpg">
+                <i class='bx bx-female'></i>
+                <h3>Női felnőtt (Megye)</h3>
+                <p>A Bronzérmes csapatunk! 🥉</p>
+                <a href="https://www.mksz.hu/versenyek/felnottNoiVersenyek/32021963/320217258" class="btn"
+                    target="_blank">Tabella</a>
+            </div>
+
+            <div class="teams-box">
+                <img src="kep.jpg">
+                <i class='bx bx-female'></i>
+                <h3>Női felnőtt (NB2)</h3>
+                <p>Női felnőtt csapat, NB2 Észak-nyugati csoport</p>
+                <a href="https://www.mksz.hu/versenyek/felnottNoiVersenyek/32021902/320216604" class="btn"
+                    target="_blank">Tabella</a>
+            </div>
+
+            <div class="teams-box">
+                <img src="kep.jpg">
+                <i class='bx bx-male'></i>
+                <h3>Férfi ifjúsági</h3>
+                <p>U20 korosztály, várjuk a jelentkezőket!</p>
+                <a href="https://www.mksz.hu/versenyek/upFerfiVersenyek/32021915/320216798" class="btn"
+                    target="_blank">Tabella</a>
+            </div>
+
+            <div class="teams-box">
+                <img src="kep.jpg">
+                <i class='bx bx-male'></i>
+                <h3>Férfi felnőtt (NB2)</h3>
+                <p>Férfi felnőtt csapat, NB2 Észak-nyugati csoport</p>
+                <a href="https://www.mksz.hu/versenyek/felnottFerfiVersenyek/32021900/320216591" class="btn"
+                    target="_blank">Tabella</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Rólunk-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./VKLSElogo.png" alt="VKLSElogo">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Kik is vagyunk mi?</h2>
+            <p>A VKCSK (Volt Kinizsis Csajok Klubja) 2000-ben alakult meg az egyesület baráti társaságából. A játékosok
+                korábban a Győri Keksz csapatában játszottak együtt, majd miután befejezték az aktív játékot, hobbi
+                szinten űzték a sportágat...</p>
+            <a href="#popup1" class="btn" onclick="myFunction()">Több</a>
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Üzenet<span>küldés</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="name" placeholder="Teljes név" id="nev">
+                <input type="email" placeholder="E-mail cím" id="email">
+
+            </div>
+
+            <div class="input-box">
+                <input type="tel" id="phone" name="phone" placeholder="Tel: 06304199942" pattern="[0][6][\d]{9}" required>
+                <input type="text" placeholder="Tárgy" id="subject">
+            </div>
+            <textarea name="" id="text" cols="30" rows="10" placeholder="Ide írja az üzenetét.."></textarea>
+            <input type="button" value="Küldés" class="btn" id="submit" onclick="send()">
+        </form>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by <a href="https://gaalmark.hu">Gaál Márk</a> | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--POPUP HÍREK-->
+    <div id="ac-wrapper">
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#about" onclick="myFunction()">&times;</a>
+                <div class="content">
+                <img src="VKLSElogo.png" class="popupimg">
+                <p class="popupp">A VKCSK (Volt Kinizsis Csajok Klubja) 2000-ben alakult meg az egyesület baráti társaságából. A
+                    játékosok korábban a Győri Keksz csapatában játszottak együtt, majd miután befejezték az aktív
+                    játékot, hobbi szinten űzték a sportágat. Egy évvel később jött az ötlet, hogy nevezzenek a megyei
+                    bajnokságba. Az elképzelés nagy tetszést aratott a lányok körében, s a sikerre éhes társaság rögtön
+                    az első évben megszerezte a bajnoki címet, ami NB II-es indulási jogot ért. Ahhoz, hogy feljebb
+                    lépjen a csapat, komoly háttérmunkára, jelentősebb anyagi támogatásra és ifjúsági csapat
+                    létrehozására volt szükség. A nehézségek ellenére nem volt visszaút, a főtámogató Kicsi Kocsi Bt.
+                    segítségével minden feltételnek megfelelt a klub, így 2002-ben már az NB II-ben szerepeltek a
+                    lányok.
+                    Újonc létére nem vallott szégyent a VKCSK, hiszen húsz pontot gyűjtve a negyedik helyen zárta a
+                    bajnokságot. A következő idényben 25 pontot szerzett a csapat, ami az ötödik helyre volt elegendő,
+                    majd ismét egy negyedik hely (32 ponttal) következett. A 2005/2006-os szezonban harmadik (33 pont),
+                    egy év múlva újfent negyedik (28) lett Csomor Tibor együttese.
+                    Az áttörést a 2007/2008-as szezon jelentette, hiszen a húsz mérkőzésből tizennyolcat megnyertek a
+                    győriek, s megnyerték a bajnokságot. Pedig nem indult jól az ősz, mert hazai pályán 22-22-es
+                    döntetlent ért el a csapat a Győrújbarát ellen, ám a folytatásban kilenc győzelem következett.
+                    Tavasszal ismét kifogott a VKCSK-n a Győrújbarát: a tavaszi nyitófordulóban 24-23-ra verte a
+                    győrieket, amiért a többi ellenfelén vett elégtételt a gárda.
+                    Ismét komoly dilemma elé került a klub: vállalni a magasabb osztály még nagyobb kihívását v
+                    agy maradni az NB II-ben. A döntés - csakúgy mint hat évvel korábban - most sem lehetett más,
+                    minthogy elindulni az NB I/B-ben. A 2008/2009-es idény igazi tanulóév volt a VKCSK számára, hiszen a
+                    három győzelem és egy döntetlen mellett tizenhatszor kikapott, s végül 10. lett. Mivel a tizenegy
+                    csapatos mezőnyt tizennégyre bővítette a szövetség, így nem volt kieső, de a 2009/2010-es szezonra
+                    már egy tapasztaltabb és megerősített VKCSK vágott neki a bajnokságnak, ahol a cél egyértelműen a
+                    biztos bentmaradás kiharcolása.</p>
+                </div>
+            </div>
+        </div>
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#news" onclick="myFunction()">&times;</a>
+                <div class="content">
+                    <img src="VKLSElogo.png" class="popupimg">
+                    <p class="popupp">Minden korosztály jelentkezését szívesen várja egyesületünk! Gyertek minél többen! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, error ipsa ad expedita dignissimos reiciendis delectus nihil voluptatum fuga incidunt cumque, ullam blanditiis asperiores exercitationem itaque. Doloremque porro labore quae sint obcaecati itaque in, id ipsa sit dignissimos facilis cupiditate hic ipsum perferendis illum cumque nobis. Natus exercitationem incidunt magni quasi, aperiam dolor totam nam tenetur consequatur rem, fugiat, explicabo perferendis. Velit tenetur adipisci possimus provident, distinctio odit voluptate perspiciatis aut cum quae magnam quam porro beatae quasi suscipit, nemo neque tempora sit id ex delectus, harum asperiores! Modi possimus vero aliquam perspiciatis beatae quibusdam et minus. Aut aspernatur recusandae reiciendis perferendis sed et impedit incidunt voluptatibus aperiam libero iusto, ullam quasi repellat similique blanditiis expedita asperiores? Similique, omnis officia.</p>
+                </div>
+            </div>
+        </div>
+        <div id="popup3" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#news" onclick="myFunction()">&times;</a>
+                <div class="content">
+                    <img src="VKLSElogo.png" class="popupimg">
+                    <p class="popupp">Rossz hétvége a VKLSE-nek</p>
+                </div>
+            </div>
+        </div>
+        <div id="popup4" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#news" onclick="myFunction()">&times;</a>
+                <div class="content">
+                <img src="VKLSElogo.png" class="popupimg">
+                <p class="popupp">Still nothing.</p>
+                </div>
+            </div>
+        </div>
+        <div id="popup5" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#news" onclick="myFunction()">&times;</a>
+                <div class="content">
+                <img src="VKLSElogo.png" class="popupimg">
+                <p class="popupp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sit..</p>
+                </div>
+            </div>
+        </div>
+        <div id="popup6" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#news" onclick="myFunction()">&times;</a>
+                <div class="content">
+                <img src="VKLSElogo.png" class="popupimg">
+                <p class="popupp">Ismét komoly dilemma elé került a klub: vállalni a magasabb osztály még nagyobb kihívását vagy
+                    maradni az NB II-ben. A döntés - csakúgy mint hat évvel korábban - most sem lehetett más, minthogy
+                    elindulni az NB I/B-ben. A 2008/2009-es idény igazi tanulóév volt a VKCSK számára, hiszen a három
+                    győzelem és egy döntetlen mellett tizenhatszor kikapott, s végül 10. lett. Mivel a tizenegy csapatos
+                    mezőnyt tizennégyre bővítette a szövetség, így nem volt kieső, de a 2009/2010-es szezonra már egy
+                    tapasztaltabb és megerősített VKCSK vágott neki a bajnokságnak, ahol a cél egyértelműen a biztos
+                    bentmaradás kiharcolása.</p>
+                </div>
+            </div>
+        </div>
+        <div id="popup7" class="overlay">
+            <div class="popup">
+                <h2>VKLSE története</h2>
+                <a class="close" href="#news" onclick="myFunction()">&times;</a>
+                <div class="content">
+                    <img src="VKLSElogo.png" class="popupimg">
+                    <p class="popupp">A VKCSK (Volt Kinizsis Csajok Klubja) 2000-ben alakult meg az egyesület baráti társaságából. A
+                    játékosok korábban a Győri Keksz csapatában játszottak együtt, majd miután befejezték az aktív
+                    játékot, hobbi szinten űzték a sportágat. Egy évvel később jött az ötlet, hogy nevezzenek a megyei
+                    bajnokságba. Az elképzelés nagy tetszést aratott a lányok körében, s a sikerre éhes társaság rögtön
+                    az első évben megszerezte a bajnoki címet, ami NB II-es indulási jogot ért. Ahhoz, hogy feljebb
+                    lépjen a csapat, komoly háttérmunkára, jelentősebb anyagi támogatásra és ifjúsági csapat
+                    létrehozására volt szükség. A nehézségek ellenére nem volt visszaút, a főtámogató Kicsi Kocsi Bt.
+                    segítségével minden feltételnek megfelelt a klub, így 2002-ben már az NB II-ben szerepeltek a
+                    lányok.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
