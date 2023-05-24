@@ -29,7 +29,7 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .teams-container, .news-container, .contact form', { origin: 'bottom' });*/
 
 
-    //Email cucc
+    //Email c
     function send()  {
         var data = {
             "email": document.getElementById('email').value,
@@ -39,7 +39,7 @@ ScrollReveal().reveal('.home-img, .teams-container, .news-container, .contact fo
             "tel": document.getElementById('phone').value
         };
 
-        fetch("https://jolly-crab-gaiters.cyclic.app", {
+        fetch("https://rich-ruby-indri-hat.cyclic.app", {
             method: "POST", // or 'PUT'
             headers: {
                 "Content-Type": "application/json",
