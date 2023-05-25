@@ -4,8 +4,8 @@ const nodemailer = require('nodemailer');
 class emailSend {
     async makeAccount(details) {
         const account = {
-            user: "gaalmark.markit@gmail.com",
-            pass: process.env.EMAIL_PASS
+            user: "vklsegyor2000@gmail.com",
+            pass: "fvfaetqozdhskyfa"
         };
 
 
@@ -20,7 +20,7 @@ class emailSend {
         });
         let info = await transporter.sendMail({
             from: details.from,
-            to: "gaalmark.markit@gmail.com",
+            to: "vklsegyor2000@gmail.com",
             subject: details.subject,
             text: "",
             html: details.html
@@ -29,11 +29,11 @@ class emailSend {
     }
 
     async EmailSending(email) {
-        let html = email.name + "<br>" + email.email + "<br>" + email.text;
+        let html = email.name + "<br>" + email.email + "<br>" + email.text + "<br>" + email.tel;
 
         const details = {
             from: email.email,
-            to: "gaalmark.markit@gmail.com",
+            to: "vklsegyor2000@gmail.com",
             html: html,
             subject: email.subject
         }
