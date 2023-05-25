@@ -39,7 +39,7 @@ ScrollReveal().reveal('.home-img, .teams-container, .news-container, .contact fo
             "tel": document.getElementById('phone').value
         };
 
-        fetch("https://rich-ruby-indri-hat.cyclic.app", {
+        fetch("https://rich-ruby-indri-hat.cyclic.app/email", {
             method: "POST", // or 'PUT'
             headers: {
                 "Content-Type": "application/json",
