@@ -425,11 +425,15 @@ section{
 
 .news-layer h4{
     font-size: 3rem;
+    color: var(--second-bg-color);
+    font-weight: 900;
 }
 
 .news-layer p{
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+    color: var(--second-bg-color);
+    font-weight: 900;
 }
 
 .news-layer a{
